@@ -38,7 +38,7 @@ To run the application, run : gradle build bootRun
 		    "username": "iftiaz1234", <br />
 	            "isActive": "false" <br />
 		 } <br />
-
+<br />
 5. Submit Post API : localhost:7071/a/blog/submit-post <br />
    Method : POST <br />
    Header : { token:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbWl0MTIzNCIsImp0aSI6IjQiLCJpc3MiOiJodHRwczovL2luYmxvZy5jb20iLCJpYXQiOjE1NjkzOTE0MzEsImV4cCI6MTU2OTY5MTQzMX0.J_pZ2RIvS6A7uEk1-7Z5WAxfvtwHAocfk0Swk-qFrAeGmYsP6OrgDmRcV1vZvcBqKKcK_NlYyJ6QKR6qB64s2Q} <br />
