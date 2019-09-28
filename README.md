@@ -1,7 +1,9 @@
 <snippet>
   <content><![CDATA[
+
 # ${1:InBlogApplication}
 This is the backend part of the InBlogApplication using spring boot, H2 db and in memory redis. All API Endpoints are here.
+
 ## Installation
 To build the application, run : gradle build
 To run the application, run : gradle build bootRun
@@ -24,7 +26,17 @@ To run the application, run : gradle build bootRun
                     "isAdmin": "true"
                  }
  
-3. Activate User API: localhost:7071/a/users?isActive=true
+3. Get All Users API: localhost:7071/a/users?isActive=true
+   Method : GET
+   Header : { token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbWl0MTIzNCIsImp0aSI6IjQiLCJpc3MiOiJodHRwczovL2luYmxvZy5jb20iLCJpYXQiOjE1NjkzOTE0MzEsImV4cCI6MTU2OTY5MTQzMX0.J_pZ2RIvS6A7uEk1-7Z5WAxfvtwHAocfk0Swk-qFrAeGmYsP6OrgDmRcV1vZvcBqKKcK_NlYyJ6QKR6qB64s2Q}
+
+4. Change User Status API : localhost:7071/a/user/change-status
+   Method : POST
+   Header : { token:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbWl0MTIzNCIsImp0aSI6IjQiLCJpc3MiOiJodHRwczovL2luYmxvZy5jb20iLCJpYXQiOjE1NjkzOTE0MzEsImV4cCI6MTU2OTY5MTQzMX0.J_pZ2RIvS6A7uEk1-7Z5WAxfvtwHAocfk0Swk-qFrAeGmYsP6OrgDmRcV1vZvcBqKKcK_NlYyJ6QKR6qB64s2Q}
+   Body sample : {
+		    "username": "iftiaz1234",
+	            "isActive": "false"
+		 }
    
 ## Contributing
 1. Fork it!
