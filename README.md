@@ -1,24 +1,24 @@
 <snippet>
   <content>
-	  
 	  <![CDATA[
-# ${1:InBlogApplication}
+
+# InBlogApplication
 This is the backend part of the InBlogApplication using spring boot, H2 db and in memory redis. All API Endpoints are here.
 
 ## Installation
 To build the application, run : gradle build
 To run the application, run : gradle build bootRun
 ## Usage
-1. Sign up API: localhost:7071/p/signup
-   Method : POST
-   Body sample : {
-	                  "userName": "joy1234",
-	                  "fullName": "joy das",
-	                  "password": "joy1234",
-	                  "email" : "joydas01ei@gmail.com",
-	                  "isAdmin": "true"
-                 }
-
+1. Sign up API: localhost:7071/p/signup <br />
+   Method : POST <br />
+   Body sample : { <br />
+	                  "userName": "joy1234", <br />
+	                  "fullName": "joy das", <br />
+	                  "password": "joy1234", <br />
+	                  "email" : "joydas01ei@gmail.com", <br />
+	                  "isAdmin": "true" <br />
+                 } <br />
+<br />
 2. Login API: http://localhost:7071/p/login
    Method : POST
    Body Sample : {
