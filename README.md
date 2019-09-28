@@ -1,6 +1,5 @@
 <snippet>
-  <content>
-	  <![CDATA[
+  <content><[CDATA[
 
 ## InBlogApplication
 This is the backend part of the InBlogApplication using spring boot, H2 db and in memory redis. All API Endpoints are here.
@@ -50,7 +49,7 @@ To run the application, run : gradle build bootRun
 		    "author": "test author" <br />
 		 } <br />
 		 <br />
- 6. Get Blog Posts API : localhost:7071/a/blog/posts?status=PENDING&page=0&size=1 <br />
+6. Get Blog Posts API : localhost:7071/a/blog/posts?status=PENDING&page=0&size=1 <br />
     Method : GET <br />
     Header :  { token:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbWl0MTIzNCIsImp0aSI6IjQiLCJpc3MiOiJodHRwczovL2luYmxvZy5jb20iLCJpYXQiOjE1NjkzOTE0MzEsImV4cCI6MTU2OTY5MTQzMX0.J_pZ2RIvS6A7uEk1-7Z5WAxfvtwHAocfk0Swk-qFrAeGmYsP6OrgDmRcV1vZvcBqKKcK_NlYyJ6QKR6qB64s2Q} <br />
     <br />
