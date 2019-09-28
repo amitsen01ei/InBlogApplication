@@ -1,5 +1,5 @@
 <snippet>
-  <content><[CDATA[
+  <content>
 
 ## InBlogApplication
 This is the backend part of the InBlogApplication using spring boot, H2 db and in memory redis. All API Endpoints are here.
@@ -29,7 +29,7 @@ To run the application, run : gradle build bootRun
 3. Get All Users API: localhost:7071/a/users?isActive=true <br />
    Method : GET <br />
    Header : { token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbWl0MTIzNCIsImp0aSI6IjQiLCJpc3MiOiJodHRwczovL2luYmxvZy5jb20iLCJpYXQiOjE1NjkzOTE0MzEsImV4cCI6MTU2OTY5MTQzMX0.J_pZ2RIvS6A7uEk1-7Z5WAxfvtwHAocfk0Swk-qFrAeGmYsP6OrgDmRcV1vZvcBqKKcK_NlYyJ6QKR6qB64s2Q} <br />
-   <br />
+<br />
 4. Change User Status API : localhost:7071/a/user/change-status <br />
    Method : POST <br />
    Header : {  token:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbWl0MTIzNCIsImp0aSI6IjQiLCJpc3MiOiJodHRwczovL2luYmxvZy5jb20iLCJpYXQiOjE1NjkzOTE0MzEsImV4cCI6MTU2OTY5MTQzMX0.J_pZ2RIvS6A7uEk1-7Z5WAxfvtwHAocfk0Swk-qFrAeGmYsP6OrgDmRcV1vZvcBqKKcK_NlYyJ6QKR6qB64s2Q} <br />
@@ -48,12 +48,12 @@ To run the application, run : gradle build bootRun
 		    "body": "test body", <br />
 		    "author": "test author" <br />
 		 } <br />
-		 <br />
+<br />
 6. Get Blog Posts API : localhost:7071/a/blog/posts?status=PENDING&page=0&size=1 <br />
     Method : GET <br />
     Header :  { token:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbWl0MTIzNCIsImp0aSI6IjQiLCJpc3MiOiJodHRwczovL2luYmxvZy5jb20iLCJpYXQiOjE1NjkzOTE0MzEsImV4cCI6MTU2OTY5MTQzMX0.J_pZ2RIvS6A7uEk1-7Z5WAxfvtwHAocfk0Swk-qFrAeGmYsP6OrgDmRcV1vZvcBqKKcK_NlYyJ6QKR6qB64s2Q} <br />
     <br />
-    <br />
+<br />
 7. Delete Post API : localhost:7071/a/post/delete <br />
    Method : DELETE <br />
    Header : { token:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbWl0MTIzNCIsImp0aSI6IjQiLCJpc3MiOiJodHRwczovL2luYmxvZy5jb20iLCJpYXQiOjE1NjkzOTE0MzEsImV4cCI6MTU2OTY5MTQzMX0.J_pZ2RIvS6A7uEk1-7Z5WAxfvtwHAocfk0Swk-qFrAeGmYsP6OrgDmRcV1vZvcBqKKcK_NlYyJ6QKR6qB64s2Q} <br />
