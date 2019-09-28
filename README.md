@@ -5,8 +5,8 @@
 This is the backend part of the InBlogApplication using spring boot, H2 db and in memory redis. All API Endpoints are here.
 
 ## Installation
-To build the application, run : gradle build
-To run the application, run : gradle build bootRun
+To build the application, run : `gradle build`
+To run the application, run : `gradle build bootRun`
 ## Usage
 1. Sign up API: localhost:7071/p/signup <br />
    Method : POST <br />
